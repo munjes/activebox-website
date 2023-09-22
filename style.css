@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Oswald:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+.container {
+    max-width: 90%;
+}
+
+/*
+Common Css end
+*/
+:root {
+    --primary_color: #e5e5e5;
+    --secondery_color: #428fc0;
+    --Oswald:'Oswald';
+    --Yeseva:'Yeseva'
+}
+.container{
+    max-width: 90%;
+}
+.back_to_top{
+    position: fixed;
+    bottom: 20px;
+    left:20px;
+    display: none;
+}
+/*Intro start*/
+.navbar{
+    position: sticky;
+    top: 0;
+    background: #f9fcff;
+    transition: .5s;
+    z-index: 2;
+}
+.navbar{
+    background: #333751;
+    background-size: cover;
+    padding: 0 250px ;
+}
+.nav-link{
+    color: #f9fcff;
+}
+.bg_color1{
+    background: #ac0808;
+}
+/*Intro end*/
+/*----------------------- */
+/*hero part start*/
+.hero_part{
+    background: url(../image/bg1.jpg); no-repeat center;
+    background-size: cover;
+    padding: 250px 0;
+}
+.hero_con h1{
+    padding:5px;
+    color: #fcfbfb;
+}
+.hero_con p{
+    padding: 5px;
+    color: #f9fcff;
+}
+.hero_btn a {
+    padding: 15px;
+    text-align: center;
+    border-radius: 0;
+    box-sizing: border-box;
+    background: #ac0808;
+    border-color: #120d0d;
+    font-family:var(Yeseva) ;
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.hero_btn a:hover {
+    background: transparent;
+    border-color: #0a0a0a;
+}
+/*hero part end*/
+/*-----------------------*/
+/*about part start*/
+.about_part{
+    padding: 15px;
+}
+.about_img img{
+    padding:25px;
+}
+.about_con h3{
+    padding:15px;
+}
+/*about part end*/
+/*-----------------------*/
+
+/*gallery part start*/
+.gallery_img{
+    position: relative;
+}
+.gallery_img:hover .gallery_overlay{
+    opacity: 1;
+    visibility: visible;
+} 
+.gallery_overlay{
+    height: 100%;
+    width: 100%;
+    background:rgba(223, 22, 22, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.gallery_overlay h4{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.gallery_con h4{
+    text-transform: uppercase;
+    color: #d8dbdb;
+}
+/*gallery part end*/
+/*-----------------------*/
+/*management part start*/
+.manage_con i{
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+    background: #aca9a9;
+    color: #f9fcff;
+}
+/*management part end*/
+/*-----------------------*/
+
+/*:load part start*/
+.load_part{
+    padding: 20px;
+}
+.load_con h3{
+    padding: 10px;
+}
+.load_con h5{
+    padding: 5px;
+}
+.load_btn a{
+    background: #ac0808;
+    color: #d8dbdb;
+    border-color: #0a0a0a;
+}
+/*load part end*/
+/*-----------------------*/
+
+/*blog part start*/
+.blog_part{
+    padding: 20px;
+}
+.blog_con2{
+    background-color: #53354a;
+    background-size: cover;
+    padding: 116px 0;
+    color: #f9fcff;
+    left: 0;
+}
+
+/*blog part end*/
+/*-----------------------*/
+
+/*Location part start*/
+.location_part{
+    background: #3a3e64;
+    padding: 30px;
+    background-size: cover;
+}
+.location_con_main{
+    color: #f9fcff;
+}
+.location_icon{
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+    background: #022841;
+}
+.location_icon i{
+    align-items: center;
+    justify-content: space-between;
+}
+/*Location part end*/
+/*-----------------------*/
+
+/*copy part start*/
+.copy_part{
+    background: #313454;
+    padding:20px;
+    color: #494b62;
+}
+.copy_con_main h6{
+    color: #74768b;
+}
+
+/*copy part end*/
+/*-----------------------*/
+
+.footer_part{
+    background: #555;
+}
+.footer_part a{
+    color: var(--secondery_color);
+}
+/* footer part end*/
+
+
+
+/*----------------------- */
